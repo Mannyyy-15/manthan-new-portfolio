@@ -1,0 +1,20 @@
+{
+  "name": "ousmane-ballon-dor",
+  "version": "1.0.0",
+  "description": "Ousmane Dembélé - Né Pour Briller (Ballon d'Or interactive website)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "npx -y serve . -l 3000"
+  },
+  "keywords": [
+    "ousmane-dembele",
+    "ballondor",
+    "threejs",
+    "webflow",
+    "gsap"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Backups and temporary files
+*.backup
+*.bak
+*.tmp
+*.log
+check_*.py
+clean_*.py
+inspect_*.py
+generate_*.py
+integrate_*.py
+revert_*.py
+test_*.py
+find_*.py
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

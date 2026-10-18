@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font Comparison Test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=RocknRoll+One&family=Shojumaru&family=Yuji+Boku&family=Zen+Tokyo+Zoo&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Being';
+      src: url('./cdn.prod.website-files.com/68eacc9cfb61962851d25f24/68eaedf10d1e900673b57b4c_Being-BlackInktraps.otf') format('opentype');
+      font-weight: 900;
+    }
+    body {
+      background: #0d0e12;
+      color: #fff;
+      font-family: sans-serif;
+      padding: 40px;
+    }
+    .sample {
+      margin-bottom: 40px;
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+    .label {
+      font-size: 14px;
+      color: #ffaa00;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .f-being { font-family: 'Being', serif; font-size: 4rem; text-transform: uppercase; }
+    .f-shojumaru { font-family: 'Shojumaru', cursive; font-size: 3.5rem; text-transform: uppercase; letter-spacing: 2px; }
+    .f-yuji { font-family: 'Yuji Boku', serif; font-size: 3.5rem; text-transform: uppercase; }
+    .f-kaushan { font-family: 'Kaushan Script', cursive; font-size: 3.8rem; text-transform: uppercase; }
+    .f-dela { font-family: 'Dela Gothic One', cursive; font-size: 3.5rem; text-transform: uppercase; }
+    
+    /* Calligraphy textured effect */
+    .textured-brush {
+      font-family: 'Shojumaru', 'Being', cursive;
+      font-size: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 40%, #ffc83b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.8));
+    }
+  </style>
+</head>
+<body>
+  <div class="sample">
+    <div class="label">1. Shojumaru (Japanese Brush Calligraphy for Latin)</div>
+    <div class="f-shojumaru">ABOUT ME &bull; FRONTEND & 3D</div>
+    <div class="f-shojumaru">HEADLESS & BACKEND &bull; PROJECTS</div>
+  </div>
+  <div class="sample">
+    <div class="label">2. Being (The Original Inktrap Calligraphy Font from this site)</div>
+    <div class="f-being">ABOUT ME &bull; FRONTEND & 3D</div>
+    <div class="f-being">HEADLESS & BACKEND &bull; PROJECTS</div>
+  </div>
+  <div class="sample">
+    <div class="label">3. Shojumaru with Gold/Silver Brush Texture Gradient</div>
+    <div class="textured-brush">ABOUT ME &bull; FRONTEND & 3D</div>
+    <div class="textured-brush">HEADLESS & BACKEND &bull; PROJECTS</div>
+  </div>
+  <div class="sample">
+    <div class="label">4. Kaushan Script (Dry Brush Calligraphy)</div>
+    <div class="f-kaushan">ABOUT ME &bull; FRONTEND & 3D</div>
+  </div>
+  <div class="sample">
+    <div class="label">5. Yuji Boku (Authentic Japanese Ink Brush)</div>
+    <div class="f-yuji">ABOUT ME &bull; FRONTEND & 3D</div>
+  </div>
+</body>
+</html>

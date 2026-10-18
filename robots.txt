@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manthansawant.vercel.app/sitemap.xml
