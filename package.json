@@ -1,7 +1,7 @@
 {
-  "name": "ousmane-ballon-dor",
+  "name": "manthan-sawant-portfolio",
   "version": "1.0.0",
-  "description": "Ousmane Dembélé - Né Pour Briller (Ballon d'Or interactive website)",
+  "description": "Manthan Sawant (#04) - Full-Stack & Application Developer Portfolio. High-performance scroll-driven engineering showcase.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,12 +9,16 @@
     "serve": "npx -y serve . -l 3000"
   },
   "keywords": [
-    "ousmane-dembele",
-    "ballondor",
+    "manthan-sawant",
+    "full-stack-developer",
+    "react",
+    "nextjs",
+    "shopify-hydrogen",
+    "headless-ecommerce",
+    "gsap",
     "threejs",
-    "webflow",
-    "gsap"
+    "crm-saas"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Manthan Sawant",
+  "license": "MIT"
 }
